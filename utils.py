@@ -11,8 +11,8 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'Mdisklink.link'
-    params = {'api': '7a814e8a1285414c217e134c1855ac924c525d90',
+    url = f'shareus.in'
+    params = {'api': 'mi4gfvcAlHTZbBGuJAs2RlV5jB53',
               'url': link,
               }
 
