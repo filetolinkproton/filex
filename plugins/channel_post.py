@@ -25,7 +25,7 @@ async def channel_post(client: Client, message: Message):
     base64_string = await encode(string)
     link = await get_shortlink(f"https://telegram.me/{client.username}?start={base64_string}")
 
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://t.me/share/Targetx25')]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://google.com')]])
 
     await reply_text.edit(f"<b>Here is your link</b>\n\n{link}", reply_markup=reply_markup, disable_web_page_preview = True)
 
